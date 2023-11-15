@@ -1,0 +1,48 @@
+# DAW2 M08UF1 2023-2024 FJE CLOT
+
+## Requisits
+
+Requereix tenir instal·lat previament:
+1. Virtualbox https://www.virtualbox.org/
+2. Vagrant https://www.vagrantup.com/
+
+## Pasos a seguir
+
+1. Creació d'una carpeta amb el fitxer Vagrantfile i un directori per compartir:
+
+	Crea una carpeta de nom  m08uf1pr2
+	Crea una carpeta de nom projecte dins de m08uf1pr2
+	Copia Vagrantfile dins de m08uf1pr2
+
+2. Canvia el nom de sistema de la màquina virtual:
+
+	2.1 Obre Vagrantfile amb nano, geany, qualsevol IDE o qualsevol editor de texte pla.
+	2.2 Edita el paràmete config.vm.hostname i fes que el seu nou valor sigui: config.vm.hostname = "daw2_xxyyzz"
+	NOTA: xxyyzz són les 2 primeres lletres del teu nom, 1r cognom i 2n cognom
+	2.3 Edita el paràmete v.name i fes que el seu nou valor sigui: v.name = "daw2_xxyyzz"
+	NOTA: xxyyzz són les 2 primeres lletres del teu nom, 1r cognom i 2n cognom
+
+3. Inicia la màquina virtual amb les ordres de `Vagrant`:
+
+	vagrant up
+
+4. Accedeix a la màquina virtual per SSH, per poder realitzar el curs:
+
+	vagrant ssh
+
+5. Comprova l'adreça IP de la màquina virtual executant: ip a
+
+6. Des de la carpeta projecte de la màquina física:
+   Crea un fitxer des de la carpeta projecte de la màquína física de nom index.php amb aquest contingut: <?php echo "Hola món!!!!; '>
+   Esborra index.html
+   Comprova que index.php també s'ha creat a la carpeta /var/www/html de la màquina virtual.
+   Comprova que index.html també s'ha esborrat de la carpeta /var/www/html de la màquina virtual.
+
+7. Executa exit i surt de la màquina virtual
+
+8. Executa vagrant halt i atura la màquina virtual. Per tornar a posar-la en marxa i accedir-hi torna a fer els passos 3 i 4.
+
+
+
+
+
