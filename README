@@ -10,17 +10,19 @@ Requereix tenir instal·lat previament:
 
 1. Creació d'una carpeta amb el fitxer Vagrantfile i un directori per compartir:
 
-	Crea una carpeta de nom  m08uf1pr2
-	Crea una carpeta de nom projecte dins de m08uf1pr2
-	Descarrega el fitxer Vagrantfile que trobaràs a https://raw.githubusercontent.com/dcolla2/m08uf1pr2/main/Vagrantfile dins de m08uf1pr2
+	- Crea una carpeta de nom  m08uf1pr2
+	- Crea una carpeta de nom projecte dins de m08uf1pr2
+	- Descarrega el fitxer Vagrantfile que trobaràs a:
+	     https://raw.githubusercontent.com/dcolla2/m08uf1pr2/main/Vagrantfile
+	  dins de m08uf1pr2
 
 2. Canvia el nom de sistema de la màquina virtual:
 
-	2.1 Obre Vagrantfile amb nano, geany, qualsevol IDE o qualsevol editor de texte pla.
-	2.2 Edita el paràmete config.vm.hostname i fes que el seu nou valor sigui: config.vm.hostname = "daw2_xxyyzz"
-	NOTA: xxyyzz són les 2 primeres lletres del teu nom, 1r cognom i 2n cognom
-	2.3 Edita el paràmete v.name i fes que el seu nou valor sigui: v.name = "daw2_xxyyzz"
-	NOTA: xxyyzz són les 2 primeres lletres del teu nom, 1r cognom i 2n cognom
+	- Obre Vagrantfile amb nano, geany, qualsevol IDE o qualsevol editor de texte pla.
+	- Edita el paràmete config.vm.hostname i fes que el seu nou valor sigui: config.vm.hostname = "daw2_xxyyzz"
+	- Edita el paràmete v.name i fes que el seu nou valor sigui: v.name = "daw2_xxyyzz"
+	  
+	- NOTA: xxyyzz són les 2 primeres lletres del teu nom, 1r cognom i 2n cognom
 
 3. Inicia la màquina virtual amb les ordres de `Vagrant`:
 
