@@ -34,11 +34,8 @@ Requereix tenir instal·lat previament:
 
 5. Comprova l'adreça IP de la màquina virtual executant: ip a
 
-6. Des de la carpeta projecte de la màquina física:
-   Crea un fitxer des de la carpeta projecte de la màquína física de nom index.php amb aquest contingut: <?php echo "Hola món!!!!; '>
-   Esborra index.html
-   Comprova que index.php també s'ha creat a la carpeta /var/www/html de la màquina virtual.
-   Comprova que index.html també s'ha esborrat de la carpeta /var/www/html de la màquina virtual.
+6. Des de la carpeta projecte de la màquina física comprova que tens accés a un document html de nom index.html
+   que també es troba a /var/www/html de la màquina virtual.
 
 7. Executa exit i surt de la màquina virtual
 
