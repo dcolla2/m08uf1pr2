@@ -12,7 +12,7 @@ Requereix tenir instal·lat previament:
 
 	Crea una carpeta de nom  m08uf1pr2
 	Crea una carpeta de nom projecte dins de m08uf1pr2
-	Copia Vagrantfile dins de m08uf1pr2
+	Descarrega <a href="https://raw.githubusercontent.com/dcolla2/m08uf1pr2/main/Vagrantfile">Vagrantfile</a> dins de m08uf1pr2
 
 2. Canvia el nom de sistema de la màquina virtual:
 
